@@ -1,0 +1,49 @@
+@import url(https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700);
+html {
+  font-size: 22px;
+}
+
+body {
+  margin: 0;
+}
+
+.topmenu {
+  background-color: #bbb;
+  width: 100%;
+  margin: 0;
+  font-size: 2rem;
+}
+
+.topmenu .rewritePoem {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.topmenu select {
+  float: right;
+  margin: 0.4rem;
+  padding: 0 0.4rem;
+  font-size: 1.2rem;
+  max-width: 70vw;
+}
+
+.controls {
+  width: 94vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#poemBody {
+  width: 18rem;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Libre Baskerville", Times, serif;
+}
+
+#poemBody h2 {
+  font-size: 2rem;
+}
+
+#poemBody h4 {
+  font-size: 1.2rem;
+}
